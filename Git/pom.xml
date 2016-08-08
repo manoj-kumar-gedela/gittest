@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gitflow</groupId>
+  <artifactId>Git</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>external.atlassian.jgitflow</groupId>
+				<artifactId>jgitflow-maven-plugin</artifactId>
+				<version>1.0-m5.1</version>
+				<configuration>
+					<keepBranch>false</keepBranch>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<noTag>true</noTag>
+					<pullDevelop>true</pullDevelop>
+					<pullMaster>true</pullMaster>
+					<allowSnapshots>true</allowSnapshots>
+					
+					<allowUntracked>true</allowUntracked>
+					<pushFeatures>true</pushFeatures>
+					<pushHotfixes>true</pushHotfixes>
+					<pushReleases>true</pushReleases>
+					<enableSshAgent>true</enableSshAgent>
+					<noDeploy>true</noDeploy>
+
+					<flowInitContext>
+						<masterBranchName>master</masterBranchName>
+						<developBranchName>development</developBranchName>
+						<featureBranchPrefix>feature-</featureBranchPrefix>
+						<releaseBranchPrefix>release-</releaseBranchPrefix>
+						<hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
+						<versionTagPrefix>${project.artifactId}-</versionTagPrefix>
+					</flowInitContext>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
+	<scm>
+		<connection>scm:git:git@github.com:manoj-kumar-gedela/gittest.git</connection>
+		<developerConnection>scm:git:git:git@github.com:manoj-kumar-gedela/gittest.git</developerConnection>
+	</scm>
+	
+	<distributionManagement>
+		<repository>
+			<id>gitflow</id>
+			<url>https://github.com/manoj-kumar-gedela/gittest.git</url>
+		</repository>
+	</distributionManagement>
+	
+</project>
