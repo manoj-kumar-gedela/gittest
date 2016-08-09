@@ -13,7 +13,7 @@
 				<configuration>
 					<allowUntracked>true</allowUntracked>
 					<allowSnapshots>true</allowSnapshots>
-					<goals>clean install deploy</goals>
+					<!-- <goals>clean install deploy</goals> -->
 					
 					<keepBranch>false</keepBranch>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
