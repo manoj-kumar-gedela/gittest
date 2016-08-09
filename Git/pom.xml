@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gitflow</groupId>
 	<artifactId>Git</artifactId>
-	<version>0.0.2-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<build>
 		<plugins>
@@ -31,10 +31,10 @@
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
 						<developBranchName>development</developBranchName>
-						<!-- <featureBranchPrefix>feature-</featureBranchPrefix>
+						<featureBranchPrefix>feature-</featureBranchPrefix>
 						<releaseBranchPrefix>release-</releaseBranchPrefix>
 						<hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-						<versionTagPrefix>${project.artifactId}-</versionTagPrefix> -->
+						<versionTagPrefix>${project.artifactId}-</versionTagPrefix>
 					</flowInitContext>
 				</configuration>
 			</plugin>
