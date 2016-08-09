@@ -15,7 +15,7 @@
 					<allowSnapshots>true</allowSnapshots>
 					<goals>clean install</goals>
 					
-					<!-- <keepBranch>false</keepBranch>
+					<keepBranch>false</keepBranch>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<noTag>true</noTag>
 					<pullDevelop>true</pullDevelop>
@@ -26,7 +26,7 @@
 					<enableSshAgent>true</enableSshAgent>
 					<noDeploy>true</noDeploy>
 					<username>manoj-kumar-gedela</username>
-					<password>manoj_10111990</password> -->
+					<password>manoj_10111990</password>
 					
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
