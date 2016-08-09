@@ -23,7 +23,7 @@
 					<pushHotfixes>true</pushHotfixes>
 					<pushReleases>true</pushReleases>
 					<enableSshAgent>true</enableSshAgent>
-					<noDeploy>true</noDeploy>
+					<!-- <noDeploy>true</noDeploy> -->
 					<username>manoj-kumar-gedela</username>
 					<password>manoj_10111990</password>
 					<flowInitContext>
