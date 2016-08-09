@@ -27,7 +27,7 @@
 					<noDeploy>true</noDeploy>
 					<username>manoj-kumar-gedela</username>
 					<password>manoj_10111990</password>
-					
+					<featureName>feature</featureName>
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
 						<developBranchName>development</developBranchName>
