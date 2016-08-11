@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gitflow</groupId>
 	<artifactId>Git</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>5.1-SNAPSHOT</version>
 
 	<build>
 		<plugins>
